@@ -33,11 +33,11 @@ null => false
 undefined => false
 */
 
-let someNumber = undefined
+// let someNumber = undefined
 
-let valueInString = String(someNumber)
-console.log(valueInString);
-console.log(typeof valueInString);
+// let valueInString = String(someNumber)
+// console.log(valueInString);
+// console.log(typeof valueInString);
 
 /*
 Conversion to string
@@ -47,3 +47,29 @@ null => null
 undefined => undefined
 
 */
+
+//**********Operators***********
+let value = 13
+let negValue = -value
+
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**4);
+// console.log(2/4);
+// console.log(2%4);
+
+// let str1 = "hello "
+// let str2 = "akil"
+// let str = str1+str2
+// console.log(str);
+
+// console.log("1"+"2");
+// console.log(1+"2");
+// console.log("1"+2);
+// console.log("1"+2+2);
+// console.log(2+2+"1"+2);
+
+console.log(true+true);
