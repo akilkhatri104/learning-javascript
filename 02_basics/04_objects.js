@@ -29,8 +29,20 @@ const obj3 = {...obj1,...obj2}
 // console.log(obj3);
 // console.log(obj1);
 
-console.log(Object.keys(appUser));
-console.log(Object.values(appUser));
-console.log(Object.entries(appUser));
+// console.log(Object.keys(appUser));
+// console.log(Object.values(appUser));
+// console.log(Object.entries(appUser));
 
-console.log(appUser.hasOwnProperty('isLoggedIn'));
+// console.log(appUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    coursename: "JS in Hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+console.log(course.courseInstructor);
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+
