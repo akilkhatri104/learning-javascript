@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Three</title>
+</head>
+<body style="background-color: black; color:white">
+    
+</body>
+<script>
+    // const div = document.createElement('div')
+    // console.log(div)
+    // div.className = 'main'
+    // div.id = Math.round(Math.random()*10+1)
+    // div.setAttribute('title','This is a title')
+    // div.style.backgroundColor = 'green'
+    // div.style.padding = '12px'
+    // // div.innerText = 'Akil Khatri'
+    // const addText = document.createTextNode('AKIL KHATRI')
+    // div.appendChild(addText)
+    // document.body.appendChild(div)
+    
+    const uList = document.createElement('ul')
+    document.body.appendChild(uList)
+
+    const colors = ['red','green','blue']
+    colors.forEach( (color) => {
+        let item = document.createElement('li')
+        item.innerHTML = color
+        item.style.padding = '5px'
+        item.style.backgroundColor = color
+        uList.appendChild(item)
+    } )
+</script>
+</html>
